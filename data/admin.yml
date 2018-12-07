@@ -1,0 +1,5 @@
+site:
+  title: Gridsome Casper
+  cover_image: '/images/blog-cover.jpg'
+  logo: '/images/gridsome-logo.png'
+  description: 'The professional publishing platform'
