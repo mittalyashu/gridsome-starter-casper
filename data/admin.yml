@@ -2,4 +2,21 @@ site:
   title: Gridsome Casper
   cover_image: '/images/blog-cover.jpg'
   logo: '/images/gridsome-logo.png'
+  url: '/'
   description: 'The professional publishing platform'
+  subscribers: true
+  navigation: true
+
+social_media:
+  facebook: 'gridsome'
+  twitter: 'gridsome'
+
+nav_home:
+  - title: Home
+    link: /
+  - title: About
+    link: /About
+  - title: Getting Started
+    link: /tag/getting-started/
+  - title: Try Gridsome
+    link: https://www.gridsome.org/

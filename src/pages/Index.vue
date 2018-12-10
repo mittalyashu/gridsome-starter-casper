@@ -11,7 +11,7 @@
           </h1>
           <h2 class="site-description">{{ Admin.site.description}}</h2>
         </div>
-        <Navbar/>
+        <Navbar />
       </div>
     </header>
   </Layout>
@@ -19,9 +19,16 @@
 
 <script>
   import Admin from '../../data/admin.yml';
+  import Navbar from '../components/Navbar'
 
   export default {
+    components: {
+      Navbar
+    },
     computed: {
+      HomePage() {
+        return true
+      },
       Admin() {
         return Admin
       },
