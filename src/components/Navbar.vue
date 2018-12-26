@@ -11,11 +11,11 @@
 		</div>
 		<div class="site-nav-right">
 			<div class="social-links">
-				<a v-if="Facebook" class="social-link social-link-fb" :href="'https://facebook.com/' + Admin.social_media.facebook" title="Facebook" target="_blank" rel="noopener">
+				<a v-if="Admin.social_media.facebook" class="social-link social-link-fb" :href="'https://facebook.com/' + Admin.social_media.facebook" title="Facebook" target="_blank" rel="noopener">
 					<Facebook/>
 				</a>
 
-				<a v-if="Twitter" class="social-link social-link-tw" :href="'https://twitter.com/' + Admin.social_media.twitter" title="Twitter" target="_blank" rel="noopener">
+				<a v-if="Admin.social_media.twitter" class="social-link social-link-tw" :href="'https://twitter.com/' + Admin.social_media.twitter" title="Twitter" target="_blank" rel="noopener">
 					<Twitter/>	
 				</a>
 			</div>
