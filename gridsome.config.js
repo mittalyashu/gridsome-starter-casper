@@ -5,5 +5,14 @@ module.exports = {
   siteName: 'Gridsome Casper',
   siteUrl: 'https://www.gridsome.org',
 
-  plugins: []
+  plugins: [
+    {
+			use: '@gridsome/source-filesystem',
+			options: {
+				path: 'blog/*.md',
+				typeName: 'BlogPost',
+				route: '/:slug'
+			}
+		}
+  ]
 }

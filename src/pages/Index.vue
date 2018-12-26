@@ -14,16 +14,26 @@
         <Navbar />
       </div>
     </header>
+
+    <!-- The main content area -->
+    <main id="site-main" class="site-main outer">
+      <div class="inner">
+        <div class="post-feed">
+          <Card v-for="{ node } in $page.allBlogPost.edges" :key="node.id" :cardData="node" />
+        </div>
+      </div>
+    </main>
   </Layout>
 </template>
 
 <script>
   import Admin from '../../data/admin.yml';
   import Navbar from '../components/Navbar'
+  import Card from '../components/Card';
 
   export default {
     components: {
-      Navbar
+      Navbar, Card
     },
     computed: {
       HomePage() {
@@ -49,3 +59,25 @@
     }   
   }
 </script>
+
+<page-query>
+  query Home ($page: Int) {
+    allBlogPost (page: $page, order: ASC) {
+      edges {
+        node {
+          id
+          title
+          date (format: "D MMMM, YYYY")
+          path
+          tags
+          fields {
+            image
+          }
+          content
+          authors
+          timeToRead
+        }
+      }
+    }
+  }
+</page-query>
