@@ -79,6 +79,8 @@
         return text.substring(0, length) + suffix;
       },
       stripHTML: text => {
+        // FIXME document is not defined
+        // Showing error while deploying on netlify.
         var tmp = document.createElement("DIV");
         tmp.innerHTML = text;
         return tmp.textContent || tmp.innerText || "";
