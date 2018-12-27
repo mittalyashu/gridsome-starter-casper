@@ -32,13 +32,15 @@
   import Card from '../components/Card';
 
   export default {
+    metaInfo: {
+      bodyAttrs: {
+        class: 'home-template'
+      }
+    },
     components: {
       Navbar, Card
     },
     computed: {
-      HomePage() {
-        return true
-      },
       Admin() {
         return Admin
       },
