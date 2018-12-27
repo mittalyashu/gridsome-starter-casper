@@ -4,7 +4,9 @@
 module.exports = {
   siteName: 'Gridsome Casper',
   siteUrl: 'https://www.gridsome.org',
-
+  siteDescription: 'The professional publishing platform',
+  titleTemplate: `%s - Gridsome`,
+  
   plugins: [
     {
 			use: '@gridsome/source-filesystem',
