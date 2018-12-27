@@ -55,7 +55,7 @@
     computed: {
       articleClass() {
         let classes = ['post-card', 'post'];
-        if (this.cardData.fields.image === null) {
+        if (this.cardData.fields === null) {
           classes.push('no-image')
         }
         const cardTagClass = 'post-' + this.cardData.tags;
