@@ -64,7 +64,7 @@
       }
     },
     methods: {
-      getAuthorData: (authorName) => {
+      getAuthorData: authorName => {
         const authorList = AuthorData;
         for (var i = 0; i < authorList.length; i++) {
           const currentAuthorUsername = authorList[i].username; 
