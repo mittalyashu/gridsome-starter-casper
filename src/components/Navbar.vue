@@ -32,39 +32,29 @@
 </template>
 
 <script>
-		import Admin from '../../data/admin.yml';
-		import Navigation from './Navigation'
+	import Admin from '../../data/admin.yml';
+	import Navigation from './Navigation'
 
-		// Icons
-		import Facebook from './icons/Facebook'
-		import Twitter from './icons/Twitter'
-		import Coffee from './icons/Coffee'
-		import RSS from './icons/RSS'
+	// Icons
+	import Facebook from './icons/Facebook'
+	import Twitter from './icons/Twitter'
+	import Coffee from './icons/Coffee'
+	import RSS from './icons/RSS'
 
-		export default {
-			props: {
-				logo: {
-					type: Boolean,
-					default: true
-				}
-			},
-			components: {
-				Navigation, Coffee, Facebook, Twitter, RSS
-			},
-				computed: {
-						Admin() {
-								return Admin
-						},
-						Facebook() {
-							if (Admin.social_media.facebook !== '') {
-								return true
-							}
-						},
-						Twitter() {
-							if (Admin.social_media.twitter !== '') {
-								return true
-							}
-						}
-				}
+	export default {
+		props: {
+			logo: {
+				type: Boolean,
+				default: false
+			}
+		},
+		components: {
+			Navigation, Coffee, Facebook, Twitter, RSS
+		},
+		computed: {
+			Admin() {
+				return Admin
+			}
 		}
+	}
 </script>
