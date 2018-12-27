@@ -1,8 +1,8 @@
 <template>
 	<nav class="site-nav">
 		<div class="site-nav-left">
-			<div v-if="logo !== true">
-				<a v-if="Admin.site.logo !== ''" class="site-nav-logo" :href="Admin.site.url">
+			<div v-if="logo">
+				<a v-if="Admin.site.logo" class="site-nav-logo" :href="Admin.site.url">
 					<img :src="Admin.site.logo" :alt="Admin.site.title" />
 				</a>
 				<a v-else class="site-nav-logo" :href="Admin.site.url">{{ Admin.site.title }}</a>

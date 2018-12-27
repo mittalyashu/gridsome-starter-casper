@@ -11,7 +11,7 @@
           </h1>
           <h2 class="site-description">{{ Admin.site.description}}</h2>
         </div>
-        <Navbar />
+        <Navbar :logo=false />
       </div>
     </header>
 
