@@ -45,14 +45,14 @@
         return Admin
       },
       HeroBgImage() {
-        if (Admin.site.cover_image !== '') {
+        if (!Admin.site.cover_image) {
           return {
             backgroundImage: 'url(' + Admin.site.cover_image + ')'
           }
         }
       },
       HeroBgClass() {
-        if (Admin.site.cover_image !== '') {
+        if (!Admin.site.cover_image) {
           return 'site-header outer'
         } else {
           return 'site-header outer no-cover'

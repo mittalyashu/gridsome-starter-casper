@@ -14,9 +14,10 @@
 
           <header class="post-full-header">
             <section class="post-full-meta">
+              <!-- FIXME Date format  -->
               <time class="post-full-meta-date" :datetime="$page.post.date">{{$page.post.date}}</time>
               <span class="date-divider">/</span>
-              <a :href="'/tags/' + $page.post.tags.title">{{ $page.post.tags.title.replace('-', ' ') }}</a>
+              <a :href="'/tag/' + $page.post.tags.title">{{ $page.post.tags.title.replace('-', ' ') }}</a>
             </section>
             <h1 class="post-full-title">{{ $page.post.title }}</h1>
           </header>
@@ -37,8 +38,8 @@
             <subscribeForm placeholder="youremail@example.com" />
           </section>
 
-          <!-- <bylineMultiple :author="$page.post.authors" v-if="$page.post.authors.length > 1"/>
-          <bylineSingle :author="$page.post.authors" v-else /> -->
+          <bylineMultiple :author="$page.post.author" v-if="$page.post.author.length > 1"/>
+          <bylineSingle :author="$page.post.author" v-else />
 
           <!-- NOTE Comment section -->
           <!-- <section class="post-full-comments">
@@ -103,7 +104,11 @@
       }
       image
       author {
-        title
+        id
+        name
+        image
+        tagline
+        bio
       }
       content
     }
