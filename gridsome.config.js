@@ -24,6 +24,7 @@ module.exports = {
 		{
 			use: '@gridsome/source-filesystem',
 			options: {
+				// TODO Use yaml file as data source
 				path: 'data/author/*.md',
 				typeName: 'Author',
 				route: '/author/:id'
