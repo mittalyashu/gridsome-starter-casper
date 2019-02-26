@@ -11,8 +11,8 @@
 		</div>
 		<div class="site-nav-right">
 			<div class="social-links">
-				<a v-if="Admin.social_media.coffee" class="social-link social-link-cf" :href="'https://www.buymeacoffee.com/' + Admin.social_media.coffee" title="Buy Me A Coffee" target="_blank" rel="noopener">
-					<Coffee/>
+				<a v-if="Admin.social_media.patreon" class="social-link social-link-p" :href="'https://www.patreon.com/' + Admin.social_media.patreon" title="Become My Patreon" target="_blank" rel="noopener">
+					<Patreon/>
 				</a>
 
 				<a v-if="Admin.social_media.facebook" class="social-link social-link-fb" :href="'https://facebook.com/' + Admin.social_media.facebook" title="Facebook" target="_blank" rel="noopener">
@@ -38,7 +38,7 @@
 	// Icons
 	import Facebook from './icons/Facebook'
 	import Twitter from './icons/Twitter'
-	import Coffee from './icons/Coffee'
+	import Patreon from './icons/Patreon'
 	import RSS from './icons/RSS'
 
 	export default {
@@ -49,7 +49,7 @@
 			}
 		},
 		components: {
-			Navigation, Coffee, Facebook, Twitter, RSS
+			Navigation, Patreon, Facebook, Twitter, RSS
 		},
 		computed: {
 			Admin() {
@@ -58,3 +58,8 @@
 		}
 	}
 </script>
+
+<style lang="sass">
+	.social-link > svg
+		width: 1.8rem
+</style>

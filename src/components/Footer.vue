@@ -9,7 +9,7 @@
           <g-link to="/">Latest Posts</g-link>
           <a v-if="Admin.social_media.facebook" :href="'https://facebook.com/' + Admin.social_media.facebook" target="_blank" rel="noopener">Facebook</a>
           <a v-if="Admin.social_media.twitter" :href="'https://twitter.com/' + Admin.social_media.twitter" target="_blank" rel="noopener">Twitter</a>
-          <a v-if="Admin.social_media.coffee" :href="'https://buymeacoffee.com/' + Admin.social_media.coffee" target="_blank" rel="noopener">Buy Me A Coffee</a>
+          <a v-if="Admin.social_media.patreon" :href="'https://www.patreon.com/' + Admin.social_media.patreon" target="_blank" rel="noopener">Become My Patreon</a>
           <a href="https://gridsome.org" target="_blank" rel="noopener">Gridsome</a>
       </nav>
     </div>
