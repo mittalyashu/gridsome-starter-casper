@@ -103,7 +103,10 @@
       }
       image
       author {
-        title
+        id
+        name
+        image
+        tagline
       }
       content
     }
