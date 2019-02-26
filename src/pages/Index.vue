@@ -69,12 +69,11 @@
         node {
           id
           title
-          date (format: "D MMMM, YYYY")
+          date
           path
           tags
-          fields {
-            image
           }
+          image
           content
           authors
           timeToRead

@@ -88,14 +88,15 @@
     }
   }
 </script>
+// Fixme the date format (format: "D MMMM YYYY")
 <page-query>
   query BlogPost ($path: String!) {
     post (path: $path) {
+      id
       title
-      date (format: "D MMMM YYYY")
       tags
-      fields {
-        image
+      date
+      image
       }
       authors
       content
