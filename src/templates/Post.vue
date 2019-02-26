@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    
+
     <header class="site-header outer">
       <div class="inner">
         <Navbar :logo=true />
