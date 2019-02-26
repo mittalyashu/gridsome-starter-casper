@@ -14,7 +14,7 @@
           <h2 class="post-card-title">{{ cardData.title }}</h2>
         </header>
         <section class="post-card-excerpt">
-          <p>{{ cardData.content | stripHTML() | truncate(190, '...') }}</p>
+          <p>{{ cardData.content | stripHTML | truncate(190, '...') }}</p>
         </section>
       </a>
       <footer class="post-card-meta">
@@ -62,9 +62,7 @@ export default {
       return text.substring(0, length) + suffix;
     },
     stripHTML: text => {
-      var tmp = document.createElement("DIV");
-      tmp.innerHTML = text;
-      return tmp.textContent || tmp.innerText || "";
+      return text.replace(/<[^>]+>/g, '')
     }
   }
 };
