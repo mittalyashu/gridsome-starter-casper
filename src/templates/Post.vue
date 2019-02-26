@@ -50,9 +50,8 @@
 
       </div>
     </main>
-    <!-- TODO Related posts -->
-    <!-- <PreviousNext :id="$page.post.id" /> -->
 
+    <PreviousNext :id="$page.post.id" :tag="$page.post.tags.title" :posts="$page.post.tags.belongsTo.edges"/>
   </Layout>
 </template>
 
