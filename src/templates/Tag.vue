@@ -59,6 +59,7 @@ export default {
   }
 };
 </script>
+
 <page-query>
   query Tags ($id: String!) {
     tag (id: $id) {
