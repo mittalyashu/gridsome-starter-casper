@@ -37,8 +37,8 @@
             <subscribeForm placeholder="youremail@example.com" />
           </section>
 
-          <bylineMultiple :author="$page.blogPost.authors" v-if="$page.blogPost.authors.length > 1"/>
-          <bylineSingle :author="$page.blogPost.authors" v-else />
+          <!-- <bylineMultiple :author="$page.post.authors" v-if="$page.post.authors.length > 1"/>
+          <bylineSingle :author="$page.post.authors" v-else /> -->
 
           <!-- NOTE Comment section -->
           <!-- <section class="post-full-comments">
@@ -49,6 +49,8 @@
 
       </div>
     </main>
+    <!-- TODO Related posts -->
+    <!-- <PreviousNext :id="$page.post.id" /> -->
 
   </Layout>
 </template>
@@ -59,6 +61,7 @@
   import subscribeForm from '../components/subscribeForm';
   import bylineMultiple from '../components/bylineMultiple';
   import bylineSingle from '../components/bylineSingle';
+  import PreviousNext from '../components/PreviousNext';
 
   export default {
     metaInfo()  {
@@ -70,7 +73,7 @@
       }
     },
     components: {
-      Navbar, subscribeForm, bylineMultiple, bylineSingle
+      Navbar, subscribeForm, bylineMultiple, bylineSingle, PreviousNext
     },
     computed: {
       Admin() {
