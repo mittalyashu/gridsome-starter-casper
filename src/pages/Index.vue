@@ -77,7 +77,9 @@
           image
           content
           author {
-            title
+            id
+            name
+            image
           }
           timeToRead
         }
