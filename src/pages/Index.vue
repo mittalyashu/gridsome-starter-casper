@@ -19,7 +19,7 @@
     <main id="site-main" class="site-main outer">
       <div class="inner">
         <div class="post-feed">
-          <Card v-for="{ node } in $page.allBlogPost.edges" :key="node.id" :cardData="node" />
+          <Card v-for="{ node } in $page.allPost.edges" :key="node.id" :cardData="node" />
         </div>
       </div>
     </main>
@@ -64,7 +64,7 @@
 
 <page-query>
   query Home ($page: Int) {
-    allBlogPost (page: $page, order: ASC) {
+    allPost (page: $page, order: ASC) {
       edges {
         node {
           id
