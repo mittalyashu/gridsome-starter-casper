@@ -12,4 +12,4 @@ To deploy the website, click the deploy button.
 
 I have invested a lot of time and effect into this, help me build this starter kit by becoming a patreon.
 
-<a href="https://www.patreon.com/bePatron?u=8494594" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+[![Become a Patreon](https://i.imgur.com/wYOr44L.png)](https://www.patreon.com/bePatron?u=8494594)
