@@ -19,15 +19,12 @@
       </a>
       <footer class="post-card-meta">
         <ul class="author-list">
-          <li v-for="author in cardData.authors" class="author-list-item" :key="author">              
-            <div class="author-name-tooltip">
-              {{ getAuthorData(author).name }}
-            </div>
-
-            <a v-if="getAuthorData(author).image" :href="'/author/' + getAuthorData(author).username" class="static-avatar">
-              <img class="author-profile-image" :src="getAuthorData(author).image" :alt="getAuthorData(author).name" />
+          <li v-for="author in cardData.author" class="author-list-item" :key="author.name">
+            <div class="author-name-tooltip">{{ author.name }}</div>
+            <a v-if="author.image" :href="'/author/' + author.id" class="static-avatar">
+              <img class="author-profile-image" :src="author.image" :alt="author.name" />
             </a>
-            <a v-else :href="'/author/' + getAuthorData(author).username" class="static-avatar author-profile-image">
+            <a v-else :href="'/author/' + author.id" class="static-avatar author-profile-image">
              <Avatar/>
             </a>
           </li>
