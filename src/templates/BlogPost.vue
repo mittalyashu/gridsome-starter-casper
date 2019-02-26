@@ -94,11 +94,14 @@
     post (path: $path) {
       id
       title
-      tags
       date
-      image
+      tags {
+        title
       }
-      authors
+      image
+      author {
+        title
+      }
       content
     }
   }

@@ -71,11 +71,14 @@
           title
           date
           path
-          tags
+          tags {
+            title
           }
           image
           content
-          authors
+          author {
+            title
+          }
           timeToRead
         }
       }
