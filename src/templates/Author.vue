@@ -45,7 +45,6 @@
       <div class="inner">
 
         <div class="post-feed">
-          <!-- FIXME Filter posts based on author name -->
           <Card v-for="{ node } in $page.author.belongsTo.edges" :key="node.id" :cardData="node" />
         </div>
 

@@ -13,7 +13,6 @@
         <article :class="postClass">
           <header class="post-full-header">
             <section class="post-full-meta">
-              <!-- FIXME Date format  -->
               <time class="post-full-meta-date" :datetime="$page.post.date">{{$page.post.date}}</time>
               <span class="date-divider">/</span>
               <a
