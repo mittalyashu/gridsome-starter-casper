@@ -12,7 +12,7 @@
 
       <section class="post-full-content">
         <div class="post-content">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.
+          <p>This is a Gridsome starter casper theme cloned from <a target="_blank" href="https://demo.ghost.io/">Casper</a>, I have input my time and effort in making this, consider <a target="_blank" href="https://patreon.com/mittalyashu">becoming my patreon</a> to help out.</p>
         </div>
       </section>
 
