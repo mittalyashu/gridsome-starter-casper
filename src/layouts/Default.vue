@@ -17,6 +17,9 @@
         <subscribeForm placeholder="youremail@example.com" />
       </div>
     </div>
+
+    <!-- TODO Add pagination -->
+    <!-- <script v-if="Admin.site.pagination" src=""></script> -->
   </div>
 </template>
 
