@@ -6,6 +6,12 @@ module.exports = {
 
 	plugins: [
 		{
+			use: '@gridsome/plugin-google-analytics',
+			options: {
+				id: ''
+			}
+		},
+		{
 			use: '@gridsome/source-filesystem',
 			options: {
 				path: 'blog/*.md',
