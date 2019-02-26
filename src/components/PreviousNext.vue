@@ -118,6 +118,7 @@ export default {
 						image
 					}
 					content
+          timeToRead
         }
       }
     }
