@@ -4,7 +4,7 @@
       <div class="inner">
         <Navbar :logo="true"/>
         <div class="site-header-content">
-          <h1 class="site-title">{{ $page.tag.title.replace('-', ' ') | capitalizeFilter }}</h1>
+          <h1 class="site-title">{{ capitalize }}</h1>
           <h2 class="site-description">A collection of {{ $page.tag.belongsTo.edges.length }} posts</h2>
         </div>
       </div>
@@ -25,11 +25,12 @@ import Admin from "../../data/admin.yml";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 import capitalizeFilter from "../filters/capitalize";
+import capitalize from '../filters/capitalize';
 
 export default {
   metaInfo() {
     return {
-      title: this.$page.tag.title,
+      title: this.capitalize,
       bodyAttrs: {
         class: `tag-template tag-${this.$page.tag.title}`
       }
@@ -51,10 +52,10 @@ export default {
       const postTagClass = "tag-" + this.$page.post.tags.title;
       classes.push(postTagClass);
       return classes;
+    },
+    capitalize() {
+      return capitalizeFilter(this.$page.tag.title.replace('-', ' '))
     }
-  },
-  filters: {
-    capitalizeFilter
   }
 };
 </script>
