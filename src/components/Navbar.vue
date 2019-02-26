@@ -15,7 +15,7 @@
           v-if="Admin.social_media.patreon"
           class="social-link social-link-p"
           :href="'https://www.patreon.com/' + Admin.social_media.patreon"
-          title="Become My Patreon"
+          title="Become My Patron"
           target="_blank"
           rel="noopener"
         >
