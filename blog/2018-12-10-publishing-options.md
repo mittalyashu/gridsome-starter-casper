@@ -4,7 +4,7 @@ date: 2018-12-10 20:08:08 -0700
 slug: publishing-options
 image: ''
 tags: publish
-authors: ['mittalyashu', 'john']
+author: ['mittalyashu', 'john']
 ---
 
 Customise your social media sharing cards for Facebook and Twitter, enabling you to add custom images, titles and descriptions for social media.

@@ -4,7 +4,7 @@ date: 2018-12-09 20:08:08 -0700
 slug: the-editor
 image: '/images/writing-posts-with-gridsome.jpg'
 tags: editing
-authors: ['gridsome', 'mittalyashu']
+author: ['gridsome', 'mittalyashu']
 ---
 
 Ghost has a powerful visual editor with familiar formatting options, as well as the ability to seamlessly add dynamic content.

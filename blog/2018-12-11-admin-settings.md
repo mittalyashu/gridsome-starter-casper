@@ -4,7 +4,7 @@ date: 2018-12-11 20:08:08 -0700
 slug: admin-settings
 image: '/images/admin-settings.jpg'
 tags: getting-started
-authors: ['gridsome']
+author: ['gridsome']
 ---
 
 Make your site private
