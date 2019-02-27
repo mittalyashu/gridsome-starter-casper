@@ -29,6 +29,11 @@
   import subscribeForm from '../components/subscribeForm'
 
   export default {
+    data() {
+      return {
+        displaySubscriber: false
+      }
+    },
     components: {
       Footer, subscribeForm
     },
