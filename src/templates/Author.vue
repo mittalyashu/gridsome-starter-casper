@@ -85,9 +85,9 @@
     computed: {
       numberofPosts() {
         let count = this.$page.author.belongsTo.edges.length
-        if (count = 1) {
+        if (count == 1) {
           return `${count} post`
-        } else if (count <= 2) {
+        } else if (count >= 2) {
           return `${count} posts`
         } else {
           return 'No posts'
