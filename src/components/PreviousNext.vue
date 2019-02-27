@@ -107,7 +107,7 @@ export default {
         node {
           id
 					title
-					date
+					path
 					tags {
 						title
 					}
