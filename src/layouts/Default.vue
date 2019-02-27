@@ -40,6 +40,9 @@
     computed: {
       Admin() {
         return Admin
+      },
+      toggleSubscriber() {
+        displaySubscriber = !displaySubscriber
       }
     }
   }
