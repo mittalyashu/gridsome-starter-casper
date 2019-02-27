@@ -117,7 +117,6 @@
             ...on Post {
               id
               title
-              date
               author {
                 id
                 name

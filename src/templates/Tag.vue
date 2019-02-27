@@ -70,7 +70,6 @@ export default {
             ...on Post {
               id
               title
-              date
               path
               image
               author {
