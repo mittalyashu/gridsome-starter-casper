@@ -13,7 +13,7 @@
         <article :class="postClass">
           <header class="post-full-header">
             <section class="post-full-meta">
-              <time class="post-full-meta-date" :datetime="$page.post.date">{{$page.post.date}}</time>
+              <time class="post-full-meta-date" :datetime="$page.post.date | moment('d, MMMM YYYY')">{{ $page.post.date | moment("d, MMMM YYYY") }}</time>
               <span class="date-divider">/</span>
               <a
                 :href="'/tag/' + $page.post.tags.title"
@@ -94,7 +94,6 @@ export default {
   }
 };
 </script>
-// Fixme the date format (format: "D MMMM YYYY")
 <page-query>
   query BlogPost ($path: String!) {
     post (path: $path) {
