@@ -16,7 +16,7 @@ nav_home:
   - title: Home
     link: /
   - title: About
-    link: /About
+    link: /about
   - title: Getting Started
     link: /tag/getting-started/
   - title: Try Gridsome
