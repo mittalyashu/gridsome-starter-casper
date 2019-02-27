@@ -12,7 +12,7 @@
 
       <section class="post-full-content">
         <div class="post-content">
-          <p>This is a Gridsome starter casper theme cloned from <a target="_blank" href="https://demo.ghost.io/">Casper</a>, I have input my time and effort in making this, consider <a target="_blank" href="https://patreon.com/mittalyashu">becoming my patreon</a> to help out.</p>
+          <p>This is a Gridsome starter casper theme cloned from <a target="_blank" href="https://demo.ghost.io/">Casper</a>. I've put a lot of time and effort into making <strong>Gridsome Starter Casper</strong> project. If you love it, you can <a target="_blank" href="https://www.patreon.com/bePatron?u=8494594">Become a Patron</a>. I promise it will be a good investment 😉.</p>
         </div>
       </section>
 
