@@ -35,6 +35,25 @@ module.exports = {
 				typeName: 'Author',
 				route: '/author/:id'
 			}
+		},
+		{
+			use: 'gridsome-plugin-rss',
+			options: {
+				contentTypeName: 'Post',
+				feedOptions: {
+					title: 'Gridsome Casper',
+					feed_url: 'https://gridsome-starter-casper.netlify.com/feed.xml',
+					site_url: 'https://gridsome-starter-casper.netlify.com'
+				},
+				feedItemOptions: node => ({
+					title: node.title,
+					url: 'https://gridsome-starter-casper.netlify.com' + node.path,
+					author: node.author
+				}),
+				output: {
+					name: 'feed.xml'
+				}
+			}
 		}
 	]
 }
