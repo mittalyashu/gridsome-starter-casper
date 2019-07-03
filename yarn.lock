@@ -649,9 +649,9 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@gridsome/cli@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@gridsome/cli/-/cli-0.2.0.tgz#cbccebe7ffd9c151a87402fd801f8470e8d46ded"
+"@gridsome/cli@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@gridsome/cli/-/cli-0.2.1.tgz#be8d51e390e6b4d0a21a7f096a2fe298a103ce93"
   dependencies:
     "@hjvedvik/tasks" "^0.0.8"
     chalk "^2.4.1"
@@ -3432,12 +3432,12 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
-gridsome@^0.6.4:
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.6.4.tgz#5389f9ab0a630b5cd4c49e66958e5d07eac1d6bc"
+gridsome@^0.6.5:
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.6.5.tgz#62be3e0f0082afc628481728ad2311630f570b78"
   dependencies:
     "@babel/core" "^7.0.0"
-    "@gridsome/cli" "^0.2.0"
+    "@gridsome/cli" "^0.2.1"
     "@sindresorhus/slugify" "^0.8.0"
     "@vue/babel-preset-app" "^3.4.0"
     "@vue/component-compiler-utils" "^2.5.2"
