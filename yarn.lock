@@ -682,9 +682,9 @@
     mime-types "^2.1.21"
     slash "^2.0.0"
 
-"@gridsome/transformer-remark@^0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@gridsome/transformer-remark/-/transformer-remark-0.3.2.tgz#f4027da6c496ec5a2c2468bc595a9c311cb26c76"
+"@gridsome/transformer-remark@^0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@gridsome/transformer-remark/-/transformer-remark-0.3.3.tgz#035b2be6740823ab38aa99fdad079cedc0a93629"
   dependencies:
     gray-matter "^4.0.2"
     hash-sum "^1.0.2"
