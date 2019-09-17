@@ -3569,9 +3569,9 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
-gridsome@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.1.tgz#6c540e6e5dc730b5a08f0e9b73d461c63bf77440"
+gridsome@^0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.3.tgz#c61225b5122d325e585b4d1809c2f0585bdcb7f2"
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/core" "^7.0.0"
