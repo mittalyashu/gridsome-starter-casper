@@ -10,7 +10,7 @@
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "@gridsome/source-filesystem": "^0.6.0",
     "@gridsome/transformer-remark": "^0.3.3",
-    "gridsome": "^0.7.1",
+    "gridsome": "^0.7.3",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.2.0",
     "vue-moment": "^4.0.0"
