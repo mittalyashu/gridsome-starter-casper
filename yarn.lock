@@ -671,9 +671,9 @@
   dependencies:
     vue-analytics "^5.16.1"
 
-"@gridsome/source-filesystem@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@gridsome/source-filesystem/-/source-filesystem-0.6.0.tgz#420199ee7a34101bfd8479ca2ac66435575c3b3c"
+"@gridsome/source-filesystem@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@gridsome/source-filesystem/-/source-filesystem-0.6.1.tgz#4dc5275d094f0f0ee23c9e7db2b2bfb391cd7625"
   dependencies:
     chokidar "^2.0.4"
     fs-extra "^7.0.0"
