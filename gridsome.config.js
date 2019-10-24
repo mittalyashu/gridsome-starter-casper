@@ -3,6 +3,7 @@ module.exports = {
 	siteUrl: 'https://www.gridsome.org',
 	siteDescription: 'The professional publishing platform',
 	titleTemplate: `%s - Gridsome`,
+	pathPrefix: `/gridsome-starter-casper`,
 
 	plugins: [
 		{
