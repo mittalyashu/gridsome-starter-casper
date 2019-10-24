@@ -15,7 +15,7 @@ jobs:
         run: npm install
 
       - name: Build Gridsome site
-        run: gridsome build
+        run: yarn build
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@master
